@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+      <div class="calculator">
+         
+   <form  name="calculator" class="container">
+  <input type="text" name="answer" id="answer" placeholder="0"> <br>
+<input type="button"value="del" onclick="deleteButton()"> <!--delete-->
+<input type="button"value="clear" onclick="clearAll()"> <!--clearall-->
+
+   </br>
+
+
+<input type="button"value="7" onclick="addAnswer('7')"> <!--7-->
+<input type="button"value="8" onclick="addAnswer('8')"> <!--8-->
+<input type="button"value="9" onclick="addAnswer('9')"> <!--9-->
+<input type="button"value="+" onclick="addAnswer('+')"> <!--plus-->
+
+</br>
+
+
+<input type="button" value="4" onclick="addAnswer('4')"> <!--4-->
+<input type="button"value="5" onclick="addAnswer('5')"> <!--5-->
+<input type="button"value="6" onclick="addAnswer('6')"> <!--6-->
+<input type="button"value="-" onclick="addAnswer('-')"> <!--minus-->
+
+
+</br>
+
+
+
+<input type="button"value="1" onclick="addAnswer('1')"> <!--1-->
+<input type="button"value="2" onclick="addAnswer('2')"> <!--2-->
+<input type="button"value="3" onclick="addAnswer('3')"> <!--3-->
+<input type="button"value="*" onclick="addAnswer('*')"> <!--multiplication-->
+
+
+</br>
+
+
+<input type="button"value="." onclick="addAnswer('.')"> <!--dot-->
+<input type="button"value="0" onclick="addAnswer('0')"> <!--0-->
+<input type="button"value="/" onclick="addAnswer('/')"> <!--divide-->
+<input type="button"value="=" onclick="calculate('')"> <!--=-->
+
+</br>
+
+   </form> 
+</div>
+   <script src="script.js"></script> 
+</body>
+</html>
